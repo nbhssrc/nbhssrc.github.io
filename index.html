@@ -1,3 +1,9 @@
+---
+layout: null
+SRCYear: "2018/19"
+ForumURL: "https://www.tapatalk.com/groups/nbhsyear102018/"
+MinutesURL: "https://drive.google.com/drive/folders/1PFMiK7ZPrNcxOPbUlopRc2DIBbMCdWws?usp=sharing"
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +14,7 @@
     <!--Metadata for search engines-->
     <meta name="author" content="Manmeet Gill">
     <meta name="description" content="Normanhurst Boys High School Student Representative Council">
-    <title>NBHS SRC 2017/18</title>
+    <title>NBHS SRC {{ page.SRCYear }} </title>
     <!--Title and Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -37,22 +43,20 @@
                     <a href="/" class="navbar-item">NBHS SRC</a>
                 </div>
                 <div class="navbar-end">
-                    <!-- For future editors, {{FORUM}}-->
-                    <a href="https://www.tapatalk.com/groups/nbhsyear102018/" class="navbar-item"><i class="fas fa-users"></i> &nbsp; Forum</a>
-                    <!-- For future editors, {{MINUTES}}-->
-                    <a href="https://drive.google.com/drive/folders/1PFMiK7ZPrNcxOPbUlopRc2DIBbMCdWws?usp=sharing" class="navbar-item"><i class="fas fa-file-signature"></i> &nbsp; Minutes</a>
+                    <a href="{{ page.ForumURL }}" class="navbar-item"><i class="fas fa-users"></i> &nbsp; Forum</a>
+                    <a href="{{ page.MinutesURL }}" class="navbar-item"><i class="fas fa-file-signature"></i> &nbsp; Minutes</a>
                 </div>
             </nav>
         </div>
         <div class="hero-body">
             <div class="container has-text-centered">
                 <h1 class="title">
-                    Normanhurst Boys High School SRC
+                    Normanhurst Boys High School SRC {{ page.SRCYear }}
                 </h1>
                 <h2 class="subtitle">
                     <!--{{MINUTES}} and {{FORUM}}-->
-                    <a href="https://www.tapatalk.com/groups/nbhsyear102018/"><i class="fas fa-users"></i> &nbsp; Forum </a>&nbsp; 
-                    <a href="https://drive.google.com/drive/folders/1PFMiK7ZPrNcxOPbUlopRc2DIBbMCdWws?usp=sharing"><i class="fas fa-file-signature"></i> &nbsp; Minutes</a>&nbsp; 
+                    <a href="{{ page.ForumURL }}"><i class="fas fa-users"></i> &nbsp; Forum </a>&nbsp; 
+                    <a href="{{ page.MinutesURL }}"><i class="fas fa-file-signature"></i> &nbsp; Minutes</a>&nbsp; 
 
                 </h2>
             </div>
