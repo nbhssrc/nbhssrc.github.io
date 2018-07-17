@@ -10,7 +10,7 @@ The only variables you *should* need to change are in the very tip top of [index
 ---
 layout: null
 SRCYear: "2018/19"
-ForumURL: "https://www.tapatalk.com/groups/nbhsyear102018/"
+ForumURL: "https://www.tapatalk.com/groups/nbhssrc"
 MinutesURL: "https://drive.google.com/drive/folders/1PFMiK7ZPrNcxOPbUlopRc2DIBbMCdWws?usp=sharing"
 ---
 ```
