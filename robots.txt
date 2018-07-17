@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: http://NBHSSRC.github.io/sitemap.xml
